@@ -40,18 +40,16 @@ button{
     max-width: 57.5rem;
     border-radius: 1rem;
     margin: 0 auto;
+    margin-bottom: 10rem;
     display: flex;
     background-color: $white;
 }
 
 .attribution{
-    position: absolute;
-    bottom: 1rem;
+    position: relative;
+    bottom: 0;
     width: 100%;
     text-align: center;
-}
-
-.attribution{
     color: $very-dark-cyan;
 }
 
