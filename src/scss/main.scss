@@ -1,0 +1,107 @@
+@import "colours";
+@import "leftBox";
+@import "rightBox";
+
+*{
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: $light-grayish-cyan;
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+}
+
+.placeholderImage{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+.titleSection{
+    margin: 9.5rem auto;
+    margin-bottom: 5rem;
+    letter-spacing: 0.625rem;
+    text-align: center;
+    color: $dark-grayish-cyan;
+}
+
+.titleSection h1{
+    margin-left: 0.5rem;
+}
+
+.mainBox{
+    max-width: 57.5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: flex;
+    background-color: $white;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution{
+    color: $very-dark-cyan;
+}
+
+.attribution a{
+    color: $primary-col;
+    text-decoration: none;
+}
+
+@media (max-width: 650px){
+    .mainBox{
+        flex-direction: column;
+        justify-content: center;
+        padding: none;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+    }
+    .leftBox{
+        padding: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .rightBox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: $very-dark-cyan;
+        margin-left: 0;
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+        padding: 2rem;
+        padding-top: 2.5rem;
+    }
+    .rightBox h1{
+        font-size: 2.5em;
+        margin-top: 0;
+        letter-spacing: -0.02em;
+        margin-right: 0.25rem;
+        color: $primary-col;
+    }
+    .rightBox button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .attribution{
+        position: relative;
+        bottom: 1rem;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

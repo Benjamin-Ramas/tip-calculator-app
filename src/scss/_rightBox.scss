@@ -1,0 +1,70 @@
+@import "colours";
+
+.rightBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: $very-dark-cyan;
+    margin-left: 0;
+    width: 37.75%;
+    margin-top: 2rem;
+    margin-bottom: 2.35rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-top: 2.5rem;
+}
+
+.rightBox section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: -1.1rem;
+}
+
+.rightBox h1{
+    font-size: 3.1em;
+    margin-top: 0;
+    letter-spacing: -0.02em;
+    margin-right: 0.25rem;
+    color: $primary-col;
+}
+
+.rightBox h2{
+    display: flex;
+    color: $white;
+    font-size: 1em;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+}
+
+.rightBox p{
+    margin-top: 0;
+    margin-left: 0.5rem;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: $dark-grayish-cyan;
+}
+
+.rightBox button{
+    margin: 0 auto;
+    margin-top: 6rem;
+    width: 95%;
+    opacity: 1;
+    height: 3rem;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: #0d686d;
+    color: $very-dark-cyan;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.rightBox button:hover{
+    background-color: $primary-col;
+}
+
+.currencyinput {
+    border: 1px inset #ccc;
+}

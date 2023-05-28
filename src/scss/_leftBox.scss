@@ -1,0 +1,113 @@
+@import "colours";
+
+.leftBox{
+    padding: 2.25rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    width: 42.5%;
+}
+
+.leftBox h4{
+    color: $dark-grayish-cyan;
+    margin-bottom: 0.5rem;
+}
+
+.leftBox input{
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+    height: 2.75rem;
+    margin-bottom: 1.25rem;
+    background-color: $very-light-grayish-cyan;
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-right: 0.75rem;
+}
+
+.leftBox input:focus{
+    outline: 0.15rem solid $primary-col;
+}
+
+.percentButton{
+    border: none;
+    width: 7.3rem;
+    margin-top: 0.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.35rem;
+    height: 3rem;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    padding: none;
+    background-color: $very-dark-cyan;
+    color: $white;
+}
+
+.percentButton:hover{
+    background-color: $light-grayish-cyan;
+    color: $very-dark-cyan;
+}
+
+.customTip{
+    border: none;
+    width: 7.3rem;
+    margin-top: 0.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.35rem;
+    height: 3rem;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    padding: none;
+    background: none;
+}
+
+.customTip input{
+    font-size: 1em;
+    background-color: $very-light-grayish-cyan;
+    color: $very-dark-cyan;
+    border: none;
+    border-radius: 0.25rem;
+    margin: none;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    left: -0.25rem;
+    width: 95%;
+    height: 3rem;
+    text-align: right;
+    font-weight: 600;
+}
+
+.customTip input::placeholder{
+    color: $very-dark-cyan;
+    text-align: center;
+}
+
+.bottomTitle{
+    margin-top: 2.2rem;
+}
+
+.inputBill{
+    position: relative;
+}
+
+.inputBill p{
+    position: absolute;
+    left: 1rem;
+    top: -1.25rem;
+    color: $grayish-cyan;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.inputBill img{
+    position: absolute;
+    left: 1rem;
+    top: 0.75rem;
+    color: $grayish-cyan;
+    font-weight: 300;
+    font-size: 1.5em;
+    height: 1rem;
+}

@@ -8,37 +8,61 @@
   
   <title>Frontend Mentor | Tip calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./src/css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+  <section class="titleSection">
+    <h1>SPLI<br>TTER</h1>
+  </section>
 
-  Bill
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
+  <div class="mainBox">
+    <div class="leftBox">
+      <h4>Bill</h4>
+      <div class="inputBill" >
+        <p>$</p>
+        <input placeholder="0">
+      </div>
+      <h4>Select Tip %</h4>
+      <button class="percentButton">5%</button>
+      <button class="percentButton">10%</button>
+      <button class="percentButton">15%</button>
+      <button class="percentButton">25%</button>
+      <button class="percentButton">50%</button>
+      <button class="customTip"><input placeholder="Custom"></button>
+      <h4 class="bottomTitle">Number of People</h4>
+      <div class="inputBill" >
+        <img src="./images/icon-person.svg">
+        <input placeholder="0">
+      </div>
+    </div>
+    <div class="rightBox">
+      <section>
+        <span>
+          <h2>Tip Amount</h2>
+          <p>/ person</p>
+        </span>
+        <h1>$0.00</h1>
+      </section>
+      <section>
+        <span>
+          <h2>Total</h2>
+          <p>/ person</p>
+        </span>
+        <h1>$0.00</h1>
+      </section>
+      <button>RESET</button>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Benjamin Ramas</a>.
   </div>
 </body>
 </html>
