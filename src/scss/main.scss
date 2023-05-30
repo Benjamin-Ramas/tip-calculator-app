@@ -58,7 +58,24 @@ button{
     text-decoration: none;
 }
 
-@media (max-width: 650px){
+.validInput .errorMessage{
+    display: none;
+}
+
+.errorMessage{
+    color: $error-col;
+    position: absolute;
+    text-align: right;
+    top: -3rem;
+    right: 3rem;
+    width: 100%;
+}
+
+.invalidInput input{
+    outline: 3px solid $error-col;
+}
+
+@media (max-width: 900px){
     .mainBox{
         flex-direction: column;
         justify-content: center;
@@ -93,7 +110,7 @@ button{
     }
     .rightBox button{
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
     .attribution{
         position: relative;

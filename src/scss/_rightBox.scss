@@ -12,6 +12,7 @@
     border-radius: 1rem;
     padding: 2rem;
     padding-top: 2.5rem;
+    position: relative;
 }
 
 .rightBox section{
@@ -27,7 +28,10 @@
     margin-top: 0;
     letter-spacing: -0.02em;
     margin-right: 0.25rem;
+    overflow-x: auto;
+    max-width: 15rem;
     color: $primary-col;
+    background-color: red($color: #000000);
 }
 
 .rightBox h2{
@@ -50,6 +54,7 @@
 .rightBox button{
     margin: 0 auto;
     margin-top: 6rem;
+    margin-bottom: 3rem;
     width: 95%;
     opacity: 1;
     height: 3rem;
@@ -59,9 +64,15 @@
     color: $very-dark-cyan;
     border-radius: 0.25rem;
     border: none;
+    position: relative;
+    bottom: -2.5rem;
 }
 
 .rightBox button:hover{
+    background-color: $primary-col;
+}
+
+.rightBox.activeTip{
     background-color: $primary-col;
 }
 

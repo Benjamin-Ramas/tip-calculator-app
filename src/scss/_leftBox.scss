@@ -45,15 +45,26 @@
 }
 
 .percentButton:hover{
-    background-color: $light-grayish-cyan;
+    background-color: $primary-col;
     color: $very-dark-cyan;
 }
 
+.percentButton:active{
+    border: 2px solid $white;
+}
+
+button.activeButton{
+    background-color: $primary-col;
+    color: $very-dark-cyan;
+    border: 2px solid $white;
+}
+
 .customTip{
+    position: relative;;
     border: none;
     width: 7.3rem;
     margin-top: 0.5rem;
-    margin-right: 0.25rem;
+    margin-right: 0rem;
     margin-bottom: 0.35rem;
     height: 3rem;
     font-size: 1.5em;
@@ -74,10 +85,12 @@
     font-weight: 600;
     text-align: center;
     left: -0.25rem;
-    width: 95%;
+    width: 85%;
     height: 3rem;
     text-align: right;
     font-weight: 600;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 .customTip input::placeholder{
@@ -93,7 +106,7 @@
     position: relative;
 }
 
-.inputBill p{
+p.inputPrefix{
     position: absolute;
     left: 1rem;
     top: -1.25rem;
@@ -102,12 +115,20 @@
     font-size: 1.5em;
 }
 
-.inputBill img{
+img.inputPrefix{
     position: absolute;
     left: 1rem;
-    top: 0.75rem;
+    top: 1rem;
     color: $grayish-cyan;
     font-weight: 300;
     font-size: 1.5em;
     height: 1rem;
+}
+
+button.activeButton{
+    background-color: $primary-col;
+}
+
+input.activeButton{
+    outline: 0.15rem solid $primary-col;
 }
