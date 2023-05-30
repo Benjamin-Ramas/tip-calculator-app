@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://benjamin-ramas.github.io/tip-calculator-app/)
 
 ## My process
 
@@ -43,15 +43,18 @@ Users should be able to:
 
 3. With this I create the styling using Sass
 
+4. I then make the website functional using Typescript
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Sass
+- Typescript
 
 ### Continued development
 
-This version is still unfinished and I plan on updating it with javascript
+Any issues will be focused on then fixed in the future
 
 ## Author
 
